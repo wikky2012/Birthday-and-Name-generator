@@ -7,7 +7,7 @@ font-size: 20px;
 .generator{
   background-color: #17A589 ;
     background-size: cover; 
-    height: 80vh;
+    height: 60vh;
     border-radius: 5px;
 }
 .generator P{
@@ -21,7 +21,10 @@ input{
     padding-left: 20%;
 }
 button{
-   margin: 5px;
+   margin-left: 25%;
    text-align: center;
+   border-radius: 20px;
+   background-color: peru;
+   color:white;
    
 }
