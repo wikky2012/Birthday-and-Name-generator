@@ -1,6 +1,15 @@
 .jumbotron img{
     float: left;
 }
-p{
+.jumbotron p{
 font-size: 20px;
+}
+.generator{
+  background-color: #17A589 ;
+    background-size: cover; 
+    height: 75vh;
+    border-radius: 5px;
+}
+.generator P{
+    color: white;
 }
