@@ -1,3 +1,6 @@
-h1{
-    color: #FF5733 ;
+.jumbotron img{
+    float: left;
+}
+p{
+font-size: 20px;
 }
