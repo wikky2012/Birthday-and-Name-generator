@@ -7,7 +7,7 @@ This website is a simple calculator that assist you to know the day of the week 
 * Move to the vscode where the coding was done
 * I added the changes as i commit to the git
 ## Link to live site on GitHub Pages
-https://wikky2012.github.io/Portfolio-landing-page/
+https://wikky2012.github.io/Birthday-and-Name-generator/
 ## Technologies Used
  * HTML
  * CSS
