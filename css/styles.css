@@ -57,3 +57,9 @@ button{
 .checkbox{
     padding-left: 20%;
 }
+#output{
+    background-color: maroon;
+    color: white;
+    padding: 30px;
+    font-size: 25px;
+}
