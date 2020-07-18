@@ -41,8 +41,19 @@ button{
    
 }
 .gen{
-    padding-left: 30%;
+    padding-left: 20%;
+    font-weight: bold;
 }
 .btn{
+    background-color: lavender;
+}
+.btn:hover{
     background-color: chocolate;
+}
+.row{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.checkbox{
+    padding-left: 20%;
 }

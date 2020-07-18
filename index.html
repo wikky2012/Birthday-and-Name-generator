@@ -11,8 +11,8 @@
     <div class="container">
         <div class="jumbotron">
             <img src="images/calculate_logo.jpeg" alt="calculate_logo" height="143">
-            <h2 class="bg-info text-center"><strong> Birthday & African Name Generator</strong></h2>
-            <p class="text-center">Know your african name!</p>
+            <h2 class="bg-info text-center"><strong> Birthday & Akan Name Generator</strong></h2>
+            <p class="text-center"><strong>Know your Akan name!</strong></p>
             
         </div>
         <div class="generator">
@@ -22,7 +22,7 @@
                   <div class="col-md-6">
                       <div class="card">
                       <div class="card-title">
-                          <h3 class="text-center"><strong> Know your birthday & African Name</strong></h3>
+                          <h3 class="text-center"><strong> Know your birthday & Akan Name</strong></h3>
                           <div class="card-body">
                             <form action="">
                                 <div class="form-group">
@@ -36,15 +36,14 @@
                                     <input type="text" class="form-control" id="year" placeholder="yyyy" required pattern="[0-9]{4}">
                                   </div>
                                   <div class="gen">
-                                    <input type="radio" id="male" name="gender" value="male">
-                                    <label for="male">Male</label><br>
-                                    <input type="radio" id="female" name="gender" value="female">
-                                    <label for="female">Female</label><br>
-                                    <input type="radio" id="other" name="gender" value="other">
-                                    <label for="other">Other</label>
+                                    Gender:
+                                    <select id="gender">
+                                      <option value="male">Male</option>
+                                      <option value="female">Female</option>
+                                    </select>
                                   </div>
-                                    
                                 <div class="checkbox">
+                                  <br>
                                   <label><input type="checkbox"> Remember me</label>
                                 </div>
                                 <button type="submit" class="btn btn-default" onclick="calculate()">Submit</button>
@@ -56,7 +55,7 @@
                   <div class="col-md-6">
                     <div class="card">
                     <div class="card-title">
-                        <h3 class="text-center"><strong>Here is your Birthday and African name</strong></h3>
+                        <h3 class="text-center"><strong>Here is your Birthday and Akan name</strong></h3>
                         <div class="card-body">
                           <form class="form">
                             <input type="text" class="form-controls" id="day-of-week" required pattern="[0-2]{2}">
