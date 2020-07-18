@@ -25,20 +25,6 @@ function calculate(){
      var yy = parseInt(year.slice(2,4));
      var d;
      d = (( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(month+1)/10)) + date ) % 7).toFixed(); 
-      
-     
-   //  if(gender === 'male'){
-   //     return;
-   //  }
-   //  else if(gender === 'female'){
-   //      return;
-   //  }
-   //  else if(gender === 'other'){
-   //      alert('Double Gender');
-   //  }
-   //  else{
-   //      alert('Please provide the gender');
-   //   }
 
      if(parseInt(d) === parseInt(0) && (gender==="male")){
       alert('Your Akan name is: '+maleNames[0]);
@@ -61,8 +47,6 @@ function calculate(){
   else if(parseInt(d) === parseInt(6) && (gender==="male")){
      alert('Your Akan name is: '+maleNames[6]);
   }
-  else{
-      alert('Invalid');
 
       if(parseInt(d) === parseInt(0) && (gender==="female")){
          alert('Your Akan name is: '+femaleNames[0]);
@@ -86,8 +70,8 @@ function calculate(){
         alert('Your Akan name is: '+femaleNames[6]);
      }
      else{
-         alert('Invalid');
+         return false;
   }
 
-  }
+  
 }
