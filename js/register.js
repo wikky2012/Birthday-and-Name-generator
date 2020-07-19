@@ -7,7 +7,7 @@ function calculate(){
     var month = parseInt(document.getElementById('month').value);
     var year = document.getElementById('year').value;
     var gender = document.getElementById('gender').value;
-
+      
     if(date<1 || date>31){
       document.getElementById('output').innerHTML=('Invalid date');
        return;
