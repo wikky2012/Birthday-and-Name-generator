@@ -2,12 +2,13 @@ var maleNames = ['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame'];
 var femaleNames = ['Akosua','Adwoa','Abenaa','Akua','Yaa','Afua','Ama'];
 
 function calculate(){
-    event.preventDefault();
+    
+   
     var date = parseInt(document.getElementById('date').value);
     var month = parseInt(document.getElementById('month').value);
     var year = document.getElementById('year').value;
     var gender = document.getElementById('gender').value;
-      
+    
     if(date<1 || date>31){
       document.getElementById('output').innerHTML=('Invalid date');
        return;
@@ -74,6 +75,6 @@ function calculate(){
      else{
          return false;
   }
-
+// event.preventDefault();
   
 }
