@@ -25,8 +25,8 @@ function calculate(){
      var cc = parseInt(year.slice(0,2));
      var yy = parseInt(year.slice(2,4));
      var d;
-     d = (( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(month+1)/10)) + date ) % 7).toFixed(); 
-
+     d = Math.floor((( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(month+1)/10)) + date ) % 7));
+     
      if(parseInt(d) === parseInt(0) && (gender==="male")){
       document.getElementById('output').innerHTML=('You were born on Sunday and your Akan name is: '+maleNames[0]);
   }
