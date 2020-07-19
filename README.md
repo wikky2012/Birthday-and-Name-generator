@@ -2,7 +2,7 @@
 #### Calcuator to generate the day one was born and gives African name based on the day he/she was born and also based on the gender, Friday July 17 2020 ::
 #### By **Wicliffe Ronoh**
 ## Description
-This website is a simple calculator that assist you to know the day of the week you were born and gives you a Ghanaian name based on the generated day of the week that you were born. It takes the year,month and date then do the calculations to output the day of the week that you were born then based on that given day assigns you an African name (Ghana way of giving people names).
+A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
 ## Setup/Installation Requirements
 * Move to the vscode where the coding was done
 * I added the changes as i commit to the git
