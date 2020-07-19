@@ -7,19 +7,19 @@ function calculate(){
     var month = parseInt(document.getElementById('month').value);
     var year = document.getElementById('year').value;
     var gender = document.getElementById('gender').value;
-    if(date<01 || date>31){
+
+    if(date<1 || date>31){
       document.getElementById('output').innerHTML=('Invalid date');
        return;
     }
     
-    if(month<01 || month>12){
+    if(month<1 || month>12){
       document.getElementById('output').innerHTML=('Invalid Month');
         return;
      }         
-    
-     if(year<0001 || year>2020 ){
+     if(parseInt(year)<1 || parseInt(year)>2020 ){
       document.getElementById('output').innerHTML=('Invalid year');
-        return;
+      return;
      }
 
      var cc = parseInt(year.slice(0,2));

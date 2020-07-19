@@ -1,3 +1,6 @@
+.jumbotron{
+    padding-bottom: 20px;
+}
 .jumbotron img{
     float: left;
 }
@@ -7,7 +10,7 @@ font-size: 20px;
 .generator{
   background-color: #17A589 ;
     background-size: cover; 
-    height: 60vh;
+    height: 50vh;
     border-radius: 5px;
 }
 .generator P{
@@ -46,6 +49,7 @@ button{
 }
 .btn{
     background-color: lavender;
+    padding-right: 20px;
 }
 .btn:hover{
     background-color: chocolate;
@@ -53,13 +57,20 @@ button{
 .row{
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 20px;
 }
 .checkbox{
-    padding-left: 20%;
+    padding-left: 25%;
+    
 }
 #output{
     background-color: maroon;
     color: white;
     padding: 30px;
     font-size: 25px;
+}
+.body-p{
+    background-color: #17A589;
+    color: white;
+    padding: 10px;
 }
