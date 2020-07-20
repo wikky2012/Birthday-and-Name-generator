@@ -3,13 +3,13 @@ var femaleNames = ['Akosua','Adwoa','Abenaa','Akua','Yaa','Afua','Ama'];
 
 function calculate(){
     
-   
+    event.preventDefault();
     var date = parseInt(document.getElementById('date').value);
     var month = parseInt(document.getElementById('month').value);
     var year = document.getElementById('year').value;
     var gender = document.getElementById('gender').value;
     
-    if(date<1 || date>31){
+    if(date<1 || date>31 && Number.isInteger(date)){
       document.getElementById('output').innerHTML=('Invalid date');
        return;
     }
